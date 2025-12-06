@@ -24,7 +24,7 @@
     "@types/node": "^18.11.11",
     "@typescript-eslint/eslint-plugin": "^5.45.1",
     "@typescript-eslint/parser": "^5.45.1",
-    "cypress": "^12.0.1",
+    "cypress": "^15.7.1",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -37,10 +37,11 @@
     "turbo": "^1.6.3"
   },
   "dependencies": {
-    "next": "^15.2.3",
-    "next-drupal": "^1.6.0",
+    "next": "^15.2.6",
+    "next-drupal": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sharp": "0.34.5",
     "typescript": "^5.1.3"
   }
 }
