@@ -5499,14 +5499,16 @@ natural-compare@^1.4.0:
     html-react-parser "^3.0.4"
     next "^13.4.19"
     next-acms "^1.0.1"
-    next-drupal "^1.6.0"
+    next-drupal "^2.0.0"
     react "^18.2.0"
     react-dom "^18.2.0"
-    sharp "^0.31.2"
+    sharp "^0.34.5"
 
 next-acms@^1.0.1, "next-acms@file:/Users/lesliecordell/client/hygiena/repo/next-acms/packages/next-acms":
   version "1.0.1"
   resolved "file:packages/next-acms"
+  dependencies:
+    sharp "0.34.5"
 
 next-drupal@^2.0.0:
   version "2.0.0"
@@ -5520,7 +5522,7 @@ next-drupal@^2.0.0:
     react "^18.2 || ^19.0"
     react-dom "^18.2 || ^19.0"
 
-"next@^12.2.0 || ^13.0.0 || ^14.0.0 || ^15.0.0", "next@^14.2.21 || ^15.1.2", next@^15.2.6:
+"next@^12.2.0 || ^13.0.0 || ^14.0.0 || ^15.0.0", "next@^14.2.21 || ^15.1.2", next@^15.5.7:
   version "15.5.7"
   resolved "https://registry.npmjs.org/next/-/next-15.5.7.tgz"
   integrity sha512-+t2/0jIJ48kUpGKkdlhgkv+zPTEOoXyr60qXe68eB/pl3CMJaLeIGjzp5D6Oqt25hCBiBTt8wEeeAzfJvUKnPQ==
